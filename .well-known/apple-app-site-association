@@ -1,20 +1,16 @@
 {
-    "applinks":
-    {
-        "apps":
-        [],
-        "details":
-        [
+    "applinks": {
+        "apps": [],
+        "details": [
             {
-                "appIDs":
-                [
-                    "433973SB7Y.com.market.gem",
-                    "433973SB7Y.com.market.gem.debug"
-                ],
-                "paths":
-                [
+                "appIDs": ["433973SB7Y.com.market.gem", "433973SB7Y.com.market.gem.debug"],
+                 "paths": [
+                    "/marketspace/#/payment-result/*",
+                    "/test/route",
+                    "/join/*"                    
                     "/*/payment-result/*",
-                    "/test/route"
+                    "NOT /marketspace/#/*",
+                    "*"
                 ]
             }
         ]
