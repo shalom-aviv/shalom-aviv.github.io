@@ -13,7 +13,8 @@
                 ],
                 "paths":
                 [
-                    "/*/payment-result/*"
+                    "/*/payment-result/*",
+                    "/test/route"
                 ]
             }
         ]
