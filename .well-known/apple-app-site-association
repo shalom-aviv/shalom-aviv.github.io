@@ -1,1 +1,18 @@
-/Volumes/work/own/sababa/tmp/shalom-aviv.github.io/.well-known/apple-app-site-association.json
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": ["433973SB7Y.com.market.gem", "433973SB7Y.com.market.gem.debug"],
+                 "paths": [
+                    "/marketspace/#/payment-result/*",
+                    "/test/route",
+                    "/join/*"                    
+                    "/*/payment-result/*",
+                    "NOT /marketspace/#/*",
+                    "*"
+                ]
+            }
+        ]
+    }
+}
